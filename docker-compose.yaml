@@ -25,7 +25,7 @@ services:
               count: all
               capabilities: [gpu]
     
-    devices:
+    #devices:
       #- "/dev/dri:/dev/dri"
       ## For AMD GPU
       #- "/dev/kfd:/dev/kfd"
